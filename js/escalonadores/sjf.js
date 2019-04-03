@@ -1,6 +1,5 @@
 var playPause = anime.timeline({
     autoplay: false,
-    endDelay: 2000,
     duration: 1000,
     easing: 'easeInOutQuad',
 }).add({

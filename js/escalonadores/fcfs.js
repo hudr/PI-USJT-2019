@@ -25,7 +25,7 @@ document.querySelector('#boxes .pause').onclick = playPause.pause;
 
 function finalizado() {
 
-    document.getElementById("okfifo").innerHTML = '<div class="alert alert-success txtBox" role="alert">PROCESSO FIFO FINALIZADO</div>';
+    document.getElementById("okfifo").innerHTML = '<div class="alert alert-success txtBox" role="alert">PROCESSO FCFS FINALIZADO</div>';
    
 }
 
