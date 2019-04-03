@@ -17,6 +17,7 @@
 
     <!-- CSS Fifo -->
     <link rel="stylesheet" href="css/fifo.css">
+    <link rel="stylesheet" href="css/index.css">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -74,13 +75,101 @@
 
     <main role="main" class="container">
         <div class="starter-template">
-            <h2 id="hellow" class="text-dark">ESCOLHA UM ESCALONADOR ABAIXO</h2>
-            <div class="hellow">
-                <div style="display:inline-block; margin: 20px;">
-                    <a class="btn btn-block btn-sm btn-primary" href="./fifo.html">FIRST IN FIRST OUT</a>
-                    <a class="btn btn-block btn-sm btn-info" href="./sjf.html">SHORTEST JOB FIRST</a>
-                    <a class="btn btn-block btn-sm btn-warning" onclick="randomEscalonador();">ALEATÓRIO</a>
+            <!-- ALOW-->
+            <div class="animation-wrapper">
+                <div class="layered-animations">
+                    <svg class="large shape" viewBox="0 0 96 96">
+                        <defs>
+                            <linearGradient id="circleGradient" x1="0%" x2="100%" y1="20%" y2="80%">
+                                <stop stop-color="#373734" offset="0%" />
+                                <stop stop-color="#242423" offset="50%" />
+                                <stop stop-color="#0D0D0C" offset="100%" />
+                            </linearGradient>
+                        </defs>
+                        <circle cx="48" cy="48" r="28" fill-rule="evenodd" stroke-linecap="square"
+                            fill="url(#circleGradient)" />
+                    </svg>
+                    <svg class="small shape color-red" viewBox="0 0 96 96">
+                        <polygon fill-rule="evenodd" points="48 17.28 86.4 80.11584 9.6 80.11584"
+                            stroke-linecap="square" />
+                    </svg>
+                    <svg class="large shape" viewBox="0 0 96 96">
+                        <defs>
+                            <linearGradient id="triangleGradient" x1="0%" x2="100%" y1="20%" y2="80%">
+                                <stop stop-color="#373734" offset="0%" />
+                                <stop stop-color="#242423" offset="50%" />
+                                <stop stop-color="#0D0D0C" offset="100%" />
+                            </linearGradient>
+                        </defs>
+                        <polygon fill-rule="evenodd" points="48 17.28 86.4 80.11584 9.6 80.11584"
+                            stroke-linecap="square" fill="url(#triangleGradient)" />
+                    </svg>
+                    <svg class="x-small shape" viewBox="0 0 96 96">
+                        <polygon fill-rule="evenodd" points="48 17.28 86.4 80.11584 9.6 80.11584"
+                            stroke-linecap="square" />
+                    </svg>
+                    <svg class="x-small shape" viewBox="0 0 96 96">
+                        <rect width="48" height="48" x="24" y="24" fill-rule="evenodd" stroke-linecap="square" />
+                    </svg>
+                    <svg class="small shape color-red" viewBox="0 0 96 96">
+                        <rect width="48" height="48" x="24" y="24" fill-rule="evenodd" stroke-linecap="square" />
+                    </svg>
+                    <svg class="large shape" viewBox="0 0 96 96">
+                        <defs>
+                            <linearGradient id="rectGradient" x1="0%" x2="100%" y1="20%" y2="80%">
+                                <stop stop-color="#373734" offset="0%" />
+                                <stop stop-color="#242423" offset="50%" />
+                                <stop stop-color="#0D0D0C" offset="100%" />
+                            </linearGradient>
+                        </defs>
+                        <rect width="48" height="48" x="24" y="24" fill-rule="evenodd" stroke-linecap="square"
+                            fill="url(#rectGradient)" />
+                    </svg>
+                    <svg class="small shape color-red" viewBox="0 0 96 96">
+                        <circle cx="48" cy="48" r="32" fill-rule="evenodd" stroke-linecap="square" />
+                    </svg>
+                    <svg class="small shape color-red" viewBox="0 0 96 96">
+                        <circle cx="90" cy="48" r="32" fill-rule="evenodd" stroke-linecap="square" />
+                    </svg>
+                    <svg class="small shape color-red" viewBox="0 0 96 96">
+                        <circle cx="48" cy="48" r="32" fill-rule="evenodd" stroke-linecap="square" />
+                    </svg>
+                    <svg class="small shape color-red" viewBox="0 0 96 96">
+                        <circle cx="48" cy="48" r="32" fill-rule="evenodd" stroke-linecap="square" />
+                    </svg>
+                    <svg class="small shape color-red" viewBox="0 0 96 96">
+                        <circle cx="48" cy="48" r="32" fill-rule="evenodd" stroke-linecap="square" />
+                    </svg>
+                    <svg class="small shape color-red" viewBox="0 0 96 96">
+                        <circle cx="48" cy="48" r="32" fill-rule="evenodd" stroke-linecap="square" />
+                    </svg>
+                    <svg class="x-small shape" viewBox="0 0 96 96">
+                        <circle cx="48" cy="48" r="32" fill-rule="evenodd" stroke-linecap="square" />
+                    </svg>
+                    <svg class="x-small shape" viewBox="0 0 96 96">
+                        <circle cx="48" cy="48" r="32" fill-rule="evenodd" stroke-linecap="square" />
+                    </svg>
+                    <svg class="x-small shape" viewBox="0 0 96 96">
+                        <circle cx="48" cy="48" r="32" fill-rule="evenodd" stroke-linecap="square" />
+                    </svg>
+                    <svg class="x-small shape" viewBox="0 0 96 96">
+                        <circle cx="48" cy="48" r="32" fill-rule="evenodd" stroke-linecap="square" />
+                    </svg>
+                    <svg class="x-small shape" viewBox="0 0 96 96">
+                        <circle cx="48" cy="48" r="32" fill-rule="evenodd" stroke-linecap="square" />
+                    </svg>
+                    <svg class="x-small shape" viewBox="0 0 96 96">
+                        <circle cx="48" cy="48" r="32" fill-rule="evenodd" stroke-linecap="square" />
+                    </svg>
                 </div>
+            </div>
+            <!-- FIM ALLOW -->
+
+            <h2 id="hellow" class="text-dark">ESCOLHA UM ESCALONADOR ABAIXO</h2>
+            <div style="display:inline-block; margin: 20px;">
+                <a class="btn btn-block btn-sm btn-primary" href="./fifo.html">FIRST IN FIRST OUT</a>
+                <a class="btn btn-block btn-sm btn-info" href="./sjf.html">SHORTEST JOB FIRST</a>
+                <a class="btn btn-block btn-sm btn-warning" onclick="randomEscalonador();">ALEATÓRIO</a>
             </div>
         </div>
     </main>
@@ -115,6 +204,9 @@
         crossorigin="anonymous"></script>
 
     <script src="./animejs/lib/anime.min.js"></script>
+
+    <!-- FifoJS -->
+    <script src="./js/escalonadores/index.js"></script>
 
 </body>
 
