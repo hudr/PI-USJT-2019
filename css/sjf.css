@@ -1,0 +1,101 @@
+body, nav, div {
+    font-family: 'Gilroy';
+}
+
+
+#boxes {
+    width: 100%;
+    margin: -50px;
+    padding-top: 10px;
+    text-align: center;
+
+}
+
+#btns{
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #c7c7c7;
+}
+  
+#btns button{
+    padding: 5px 10px;
+    margin: 10px;
+    border: 0;
+}
+
+.box {
+    position: relative;
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+    margin:20px;
+    display:inline-block;
+}
+
+.apple {
+    font-size: 55px;
+    color: red;
+    position: relative;
+    margin:20px;
+    display:inline-block;
+}
+
+.pizza {
+    font-size: 30px;
+    color: blue;
+    position: relative;
+    margin:20px;
+    display:inline-block;
+}
+
+.ball {
+    font-size: 70px;
+    color: orange;
+    position: relative;
+    margin:20px;
+    display:inline-block;
+}
+
+.heart {
+    font-size: 10px;
+    color: purple;
+    position: relative;
+    margin:20px;
+    display:inline-block;
+}
+
+#timeline {
+    margin-bottom:20px;
+}
+
+#timeline div{
+    padding:5px 10px;
+    border:0;
+}
+  
+.fred{background-color:red}
+.fblue{background-color:blue}
+.forange{background-color:orange}
+.fpurple{background-color:purple}
+
+.txtBox {
+    font-family: 'Gilroy';
+    font-size: 30px;
+    margin: 20px auto;
+    position:relative;
+}
+
+.tred{color:red}
+.tblue{color:blue}
+.torange{color:orange}
+.tpurple{color:purple}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-ExtraBold.eot');
+    src: url('../fonts/Gilroy-ExtraBold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Gilroy-ExtraBold.svg#Gilroy-ExtraBold') format('svg'),
+         url('../fonts/Gilroy-ExtraBold.ttf') format('truetype'),
+         url('../fonts/Gilroy-ExtraBold.woff') format('woff'),
+         url('../fonts/Gilroy-ExtraBold.woff2') format('woff2');
+}
